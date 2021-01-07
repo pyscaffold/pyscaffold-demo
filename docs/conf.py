@@ -94,7 +94,7 @@ master_doc = "index"
 
 # General information about the project.
 project = "demo-project"
-copyright = "2020, John Doe"
+copyright = "2021, John Doe"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

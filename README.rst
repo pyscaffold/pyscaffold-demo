@@ -1,3 +1,7 @@
+echo -e .. image:: https://readthedocs.org/projects/pyscaffold-demo/badge/?version=latest
+    :alt: ReadTheDocs
+    :target: https://pyscaffold-demo.readthedocs.io/
+
 ============
 demo-project
 ============
@@ -20,9 +24,9 @@ Making Changes & Contributing
 This project uses `pre-commit`_, please make sure to install it before making any
 changes::
 
-    $ pip install pre-commit
-    $ cd demo-project
-    $ pre-commit install
+    pip install pre-commit
+    cd demo-project
+    pre-commit install
 
 It is a good idea to update the hooks to the latest version::
 
@@ -35,5 +39,5 @@ Don't forget to tell your contributors to also install and use pre-commit.
 Note
 ====
 
-This project has been set up using PyScaffold 4.0b1.post41+gf73b13e. For details and usage
+This project has been set up using PyScaffold 4.0b3.post1.dev2+g52368f8. For details and usage
 information on PyScaffold see https://pyscaffold.org/.
