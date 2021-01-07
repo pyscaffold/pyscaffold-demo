@@ -1,4 +1,4 @@
-echo -e .. image:: https://readthedocs.org/projects/pyscaffold-demo/badge/?version=latest
+.. image:: https://readthedocs.org/projects/pyscaffold-demo/badge/?version=latest
     :alt: ReadTheDocs
     :target: https://pyscaffold-demo.readthedocs.io/
 
@@ -39,5 +39,5 @@ Don't forget to tell your contributors to also install and use pre-commit.
 Note
 ====
 
-This project has been set up using PyScaffold 4.0b3.post1.dev2+g52368f8. For details and usage
+This project has been set up using PyScaffold 4.0b3.post1.dev3+g8c7b522. For details and usage
 information on PyScaffold see https://pyscaffold.org/.
