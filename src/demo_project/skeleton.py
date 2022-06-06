@@ -13,10 +13,10 @@ Besides console scripts, the header (i.e. until ``_logger``...) of this file can
 also be used as template for Python modules.
 
 Note:
-    This skeleton file can be safely removed if not needed!
+    This file can be renamed depending on your needs or safely removed if not needed.
 
 References:
-    - https://setuptools.readthedocs.io/en/latest/userguide/entry_point.html
+    - https://setuptools.pypa.io/en/latest/userguide/entry_point.html
     - https://pip.pypa.io/en/stable/reference/pip_install
 """
 
@@ -26,8 +26,8 @@ import sys
 
 from demo_project import __version__
 
-__author__ = "John Doe"
-__copyright__ = "John Doe"
+__author__ = "Github Action"
+__copyright__ = "Github Action"
 __license__ = "MIT"
 
 _logger = logging.getLogger(__name__)

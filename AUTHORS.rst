@@ -2,4 +2,4 @@
 Contributors
 ============
 
-* John Doe <john.doe@example.com>
+* Github Action <github.action@example.com>

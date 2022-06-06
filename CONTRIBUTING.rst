@@ -131,8 +131,8 @@ This can easily be done via either |virtualenv|_::
 
 or Miniconda_::
 
-    conda create -n pyscaffold python=3 six virtualenv pytest pytest-cov
-    conda activate pyscaffold
+    conda create -n demo-project python=3 six virtualenv pytest pytest-cov
+    conda activate demo-project
 
 Clone the repository
 --------------------
@@ -149,7 +149,7 @@ Clone the repository
 
     pip install -U pip setuptools -e .
 
-   to be able run ``putup --help``.
+   to be able to import the package under development in the Python REPL.
 
    .. todo:: if you are not using pre-commit, please remove the following item:
 
@@ -168,7 +168,7 @@ Implement your changes
 
     git checkout -b my-feature
 
-   and start making changes. Never work on the master branch!
+   and start making changes. Never work on the main branch!
 
 #. Start your work on this branch. Don't forget to add docstrings_ to new
    functions, modules and classes, especially if they are part of public APIs.
@@ -220,7 +220,7 @@ Submit your contribution
 
    .. todo:: if you are using GitHub, you can uncomment the following paragraph
 
-      Find more detailed information `creating a PR`_. You might also want to open
+      Find more detailed information in `creating a PR`_. You might also want to open
       the PR as a draft first and mark it as ready for review after the feedbacks
       from the continuous integration (CI) system or any required fixes.
 
@@ -326,8 +326,8 @@ on PyPI_, the following steps can be used to release a new version for
 
 .. _black: https://pypi.org/project/black/
 .. _CommonMark: https://commonmark.org/
-.. _contribution-guide.org: http://www.contribution-guide.org/
-.. _creating a PR: https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
+.. _contribution-guide.org: https://www.contribution-guide.org/
+.. _creating a PR: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
 .. _descriptive commit message: https://chris.beams.io/posts/git-commit
 .. _docstrings: https://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html
 .. _first-contributions tutorial: https://github.com/firstcontributions/first-contributions
@@ -341,13 +341,13 @@ on PyPI_, the following steps can be used to release a new version for
 .. _pre-commit: https://pre-commit.com/
 .. _PyPI: https://pypi.org/
 .. _PyScaffold's contributor's guide: https://pyscaffold.org/en/stable/contributing.html
-.. _Pytest can drop you: https://docs.pytest.org/en/stable/usage.html#dropping-to-pdb-python-debugger-at-the-start-of-a-test
+.. _Pytest can drop you: https://docs.pytest.org/en/stable/how-to/failures.html#using-python-library-pdb-with-pytest
 .. _Python Software Foundation's Code of Conduct: https://www.python.org/psf/conduct/
 .. _reStructuredText: https://www.sphinx-doc.org/en/master/usage/restructuredtext/
 .. _Sphinx: https://www.sphinx-doc.org/en/master/
-.. _tox: https://tox.readthedocs.io/en/stable/
+.. _tox: https://tox.wiki/en/stable/
 .. _virtual environment: https://realpython.com/python-virtual-environments-a-primer/
 .. _virtualenv: https://virtualenv.pypa.io/en/stable/
 
-.. _GitHub web interface: https://docs.github.com/en/github/managing-files-in-a-repository/managing-files-on-github/editing-files-in-your-repository
-.. _GitHub's code editor: https://docs.github.com/en/github/managing-files-in-a-repository/managing-files-on-github/editing-files-in-your-repository
+.. _GitHub web interface: https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files
+.. _GitHub's code editor: https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files

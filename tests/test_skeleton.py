@@ -2,8 +2,8 @@ import pytest
 
 from demo_project.skeleton import fib, main
 
-__author__ = "John Doe"
-__copyright__ = "John Doe"
+__author__ = "Github Action"
+__copyright__ = "Github Action"
 __license__ = "MIT"
 
 
@@ -18,7 +18,7 @@ def test_fib():
 
 def test_main(capsys):
     """CLI Tests"""
-    # capsys is a pytest fixture that allows asserts agains stdout/stderr
+    # capsys is a pytest fixture that allows asserts against stdout/stderr
     # https://docs.pytest.org/en/stable/capture.html
     main(["7"])
     captured = capsys.readouterr()
